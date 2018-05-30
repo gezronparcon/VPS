@@ -1,15 +1,8 @@
-# Deb7AutoScriptVPS
+# VPSAutoScript (Debian 7)
 
-Deb7AutoScriptVPS is made by _Dreyannz_ to minimize the time consumed and user involvement in setting up your VPS
+Deb7 VPSAutoScript is made by PHCarl to minimize the time consumed and user involvement in setting up your VPS
 
-## Installation Passwords
-
-* PHCorner
-* Dreyannz
-* LadyClare
-* Deb7AutoScriptVPS
-
-## Services Included in Deb7AutoScriptVPS
+## Services Included in VPSAutoScript
 
 * OpenSSH
 * Dropbear
@@ -22,7 +15,7 @@ Deb7AutoScriptVPS is made by _Dreyannz_ to minimize the time consumed and user i
 * Fail2Ban
 * DDOS Deflate
 
-## Script Commands in Deb7AutoScriptVPS
+## Script Commands in VPSAutoScript
 
 * menu   
 * add 
@@ -30,7 +23,6 @@ Deb7AutoScriptVPS is made by _Dreyannz_ to minimize the time consumed and user i
 * remove    
 * check  
 * member 
-* delexp
 * banner   
 * restart  
 * reboot  
@@ -38,14 +30,20 @@ Deb7AutoScriptVPS is made by _Dreyannz_ to minimize the time consumed and user i
 * info   
 * about  
 
-### How to Use the Deb7AutoScriptVPS
+### How to Use the VPSAutoScript
 
 All you need to do is Copy and Paste the commands posted below to the console/terminal of your VPS
 
 ### Commands
 
 ```
-wget -O Deb7_AutoScript_VPS.sh https://git.io/vhU31 && chmod +x Deb7_AutoScript_VPS.sh && ./Deb7_AutoScript_VPS.sh
+wget https://raw.githubusercontent.com/PHCarl10/VPS/master/VPS_Auto_Script
+```
+```
+chmod +x VPS_Auto_Script
+```
+```
+./VPS_Auto_Script
 ```
 
 ### FIX on Error: The certificate of `raw.githubusercontent.com' is not trusted.
